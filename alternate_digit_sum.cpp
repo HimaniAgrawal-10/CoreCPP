@@ -14,7 +14,7 @@ int alternateSum(int n) {
 
     while(n > 0) {
         int digit = n % 10;
-
+        
         if(add)
             result += digit;
         else
