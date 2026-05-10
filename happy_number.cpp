@@ -8,7 +8,6 @@
 #include <iostream>
 #include <set>
 using namespace std;
-
 // Function to calculate sum of squares of digits 
 int digitSquareSum(int n) {
     int sum = 0;
