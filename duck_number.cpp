@@ -20,7 +20,6 @@ bool isDuckNumber(string num) {
         if(num[i] == '0')
             return true;
     }
-
     return false;
 }
 
