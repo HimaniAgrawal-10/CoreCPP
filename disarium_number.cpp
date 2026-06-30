@@ -17,7 +17,7 @@ bool isDisarium(int n) {
     int temp = n;
 
     // Store digits
-    while(temp > 0) {
+    while(temp > 0){
         digits.push_back(temp % 10);
         temp /= 10;
     }
